@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.sign-in, .get-start{
+background: #21B573;
+border-radius: 33px;
+color: white;
+
+}
+.get-start-row{
+    padding: 60px 25px;    
+}
+.container{
+    margin-bottom: 100px;
+}
+.get-start{
+    margin-top: 12px;
+}
+.header{
+   
+    background-color: #F0FFF0;
+}
+.logo{
+    color: #F0FFF0;
+}
+.header img{
+    border-color: none;
+}
+.card{
+    width: 270px;
+    height: 270px;
+background: #F8FFFB;
+border-radius: 10px;
+}
+
+
+.card-img-top{
+    padding-top: 25px;
+    width: 75px;
+    height: 115px;
+}
+.card-body{
+    text-align: center;
+}
+.about-school{
+    box-shadow: 1px 1px 8px gray;
+    background-color:#F0FFF0;
+}
+.about-school:hover{
+    transform: scale(1.01);
+}
+.online-course:hover{
+font-size: 40px;
+color: gold;
+}
+.course-card{
+  width: 100%!important;
+}
+.box-footer p{
+    margin-top: 16px;
+    padding: 5px;
+}
+.box{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 13px;
+}
+.box:hover{
+    transform: scale(1.03);
+}
+.box-body h5{
+    font-size: 24px;
+}
+.box-body p{
+    font-size: 16px;
+}
+.box-body{
+    padding:10px;
+}
+.center{
+    display: block;
+  margin: auto;
+ padding: 10px;
+}
