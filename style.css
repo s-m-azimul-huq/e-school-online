@@ -49,9 +49,8 @@ border-radius: 10px;
 .about-school:hover{
     transform: scale(1.01);
 }
-.online-course:hover{
-font-size: 40px;
-color: gold;
+.online-course h2:hover{
+color:#51ea51;
 }
 .course-card{
   width: 100%!important;
@@ -81,4 +80,37 @@ color: gold;
     display: block;
   margin: auto;
  padding: 10px;
+}
+.online-course{
+    font-size: 36px;
+    margin-bottom: 70px;
+}
+.man-img{
+    margin-left: 100px;
+  border-radius: 4.25rem;
+}
+.footer-bg{
+    background-color: #282531!important;
+    color: white;
+}
+footer{
+    text-align: center;
+    color: #dd8282;
+}
+.footer-row{
+    padding-top: 40px;
+}
+#subscribe{
+    background-image: linear-gradient(to right,#F0FFF0,#d4f5d4);
+    height: 200px;
+}
+#subcribe h6{
+    color:gray;
+}
+.about-us-head{
+    margin-bottom: 30px!important;
+}
+.footer-sec h5{
+    font-size: 20px;
+    color: #7ecf7e;
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-school</title>
+    <title>E-school | Build Skills with Online Courses</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icon/Logo.PNG" type="image/x-icon">
@@ -15,29 +15,29 @@
   <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <nav class="navbar  navbar-expand-xl  navbar-light ">
+            <nav class="navbar  navbar-expand-lg  navbar-light">
                 <a class="navbar-brand mb-0 h1" href="#">
                     <img class="logo" src="icon/Logo.PNG" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#avbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                  <ul class="navbar-nav my-lg-0 mb-0 h4">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse  justify-content-end collapse show" id="navbarNav">
+                    <ul class="navbar-nav h5">
+                      <li class="nav-item active">
+                      <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Courses</a>
+                      <a class="nav-link" href="#courses">Courses</a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Others</a>
+                      <a class="nav-link" href="#others">Others</a>
                     </li>
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Blog</a>
+                      <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li>
-                    <button class="btn btn-success  btn-lg sign-in" href="#"role="button">Sign In</button>
+                    <button class="btn btn-success  btn-lg sign-in" href="#" role="button">Sign In</button>
                     </li>
                   </ul>
                 </div>
@@ -107,14 +107,18 @@
 </section>
 
 <!-- Courses Section -->
-<section>
-<div class="container">
+<section id="courses">
+   <header class="d-flex justify-content-center online-course ">
+     <h2>Online Courses</h2>
+   </header>
+
+  <div class="container">
   <div class="row">
     <div class="col-md-4">
       <div class="box ">
         <img class="center" src="photos/Morder pyschology.png" alt="">
         <div class="box-body ">
-          <h5>Morder pyschology</h5>
+          <h5>Mordern pyschology</h5>
           <p>Designation</p>
           <button class="btn btn-success  btn-lg sign-in" href="#"role="button">Buy Course</button>
         </div>
@@ -136,7 +140,7 @@
       <div class="box">
         <img class="center" src="photos/Morder psyc.png" alt="">
         <div class="box-body">
-          <h5>Morder pyschology</h5>
+          <h5>Mordern pyschology</h5>
           <p>Designation</p>
           <button class="btn btn-success  btn-lg sign-in" href="#"role="button">Buy Course</button>
         </div>
@@ -158,7 +162,7 @@
       <div class="box">
         <img class="center" src="photos/Morder pychons.png" alt="">
         <div class="box-body">
-          <h5>Morder pyschology</h5>
+          <h5>Mordern pyschology</h5>
           <p>Designation</p>
           <button class="btn btn-success  btn-lg sign-in" href="#"role="button">Buy Course</button>
         </div>
@@ -178,14 +182,90 @@
     </div>
   </div>
 </div>
+</div>
+</section>
 
-
+<!-- Testimonial -->
+<section id="blog">
+<header class="d-flex justify-content-center online-course">
+  <h2>Testimonial</h2>
+</header>
+<div class="container">
+  <div class="row d-flex align-items-center">
+    <div class="col-md-3 d-flex justify-content-center">
+    <img class="man-img img-fluid img-thumbnail" src="photos/Man.png" alt="">
+    </div>
+    <div class="col-md-9">
+      <p class="font-italic">" There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration in some form, by injected humour, 
+       or randomised words which don't look even slightly believable. "</p>
+    </div>
   </div>
+</div>
+</section>
+
+<!-- Bouns section and also included in many element.-->
+<!--Subcribe -->
+<section class="container d-flex justify-content-center align-items-center" id="subscribe"">
+    <div id="others">
+    <h3>LET'S STAY IN TOUCH</h3>
+   <h6>Get updates on new courses, special offers.</h6>
+   <input class="form-control" type="text" name="" placeholder="ENTER YOUR EDUCATIONAL EMAIL" id="">
+  
+   <button class="btn btn-danger btn-md">Subscribe</button>
+   </div>
 </section>
 
 
-    
+<!-- Footer -->
+<section class="footer-sec" >
+    <div class="footer-bg ">
+      <div class="container">
+        <div class="row footer-row d-flex justify-content-between align-items-center ">
+            <div class="col-md-3 ">
+                        <h5 class="about-us-head">About Us</h5>
+                        <p>Millions of people of all ages and from around
+                          the world are improving their lives with us</p>
+            </div>
+            <div class="col-md-3">
+                        <h5>Courses</h6>
+                        <p>
+                          Graphic Design <br>
+                          Web Design <br>
+                           Business  <br>
+                           Marketing <br>
+                          Engineering <br>
+                        </p>
+            </div>
+            <div class="col-md-3">
+                        <h5>Terms</h5>
+                        <p>
+                          Graphic Design <br>
+                          Web Design <br>
+                           Business  <br>
+                           Marketing <br>
+                          Engineering <br>
+                        </p>
+            </div>
+            <div class="col-md-3">
+               <h5>Useful Links</h5>
+                <p>
+                   Graphic Design <br>
+                    Web Design <br>
+                    Business  <br>
+                    Marketing <br>
+                    Engineering <br>
+                  </p>
+            </div>
+     </div>
+</div>
+<!-- copyright -->
+<footer>
+  <small > Copyright ©2020. e-school. All rights reserved. </small>
+</footer>
 
+    </div>
+</section>
  
     
 <!-- JS -->
